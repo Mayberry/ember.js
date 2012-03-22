@@ -18,8 +18,10 @@ end
 
 # We shouldn't need to depend on :clean, but right now the pipeline is not invalidating properly
 desc "Build ember.js"
-task :dist => :clean do
+task :dist do
+  puts "Building Ember..."
   Rake::Pipeline::Project.new("Assetfile").invoke
+  puts "Done"
 end
 
 desc "Clean build artifacts from previous builds"
