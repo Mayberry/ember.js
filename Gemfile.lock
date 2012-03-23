@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/wagenet/rake-pipeline-web-filters.git
-  revision: 5e9762f58e3918ab8e4b0868444e5fe9b0b9d344
+  revision: 2154b7053f35959423d977f956994687e57a7b79
   branch: neuter
   specs:
     rake-pipeline-web-filters (0.6.0)
@@ -29,7 +29,7 @@ GEM
   specs:
     colored (1.2)
     confparser (0.0.2.1)
-    execjs (1.2.13)
+    execjs (1.3.0)
       multi_json (~> 1.0)
     faster_xml_simple (0.5.0)
       libxml-ruby (>= 0.3.8.4)
@@ -40,8 +40,8 @@ GEM
     json (1.6.5)
     kicker (2.5.0)
       rb-fsevent
-    libxml-ruby (2.2.2)
-    multi_json (1.0.4)
+    libxml-ruby (2.3.2)
+    multi_json (1.1.0)
     net-github-upload (0.0.8)
       faster_xml_simple
       httpclient
